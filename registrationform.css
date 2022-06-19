@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://somysilver.github.io/registration-media-/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+h6 {
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px 8px;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    main {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+   main {
+      width: 100%;
+    }
+  }
+  
+p   {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+div {
+    display: block;
+}
+
+fieldset {
+     margin: 10px;
+     width: 300px;
+     text-align: center;
+     background-color: white;
+     border: none;
+     border-radius: 10px;
+     height: 300px;
+}
+
+tr {
+    width: 90%;
+    height: 40px;
+}
+
+button {
+    background-color: hsl(154, 54%, 51%);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+
+span {
+    color: hsl(0 , 100%, 74%);
+}
+
+.warning { color: hsl(246, 25%, 77%);
+    width: 90%;
+    margin: auto;
+    font-size: 10px;
+    font-weight: 500;
+}
